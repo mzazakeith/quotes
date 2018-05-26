@@ -1,8 +1,10 @@
-<div>
+<div class="row card">
   <p>{{quote.quote}}</p>
+
+
+  <div class="buttons">
+    <button type="button" name="button" (click)="voteUp()">Like</button>{{upVote}}
+    <button type="button" name="button" (click)="voteDown()">Dislike</button>{{downVote}}
+    <button (click)='quoteDelete(true)'> Delete </button>
+  </div>
 </div>
-<div>
-  <button type="button" name="button" (click)="voteUp()">Like</button>{{upVote}}
-  <button type="button" name="button" (click)="voteDown()">Dislike</button>{{downVote}}
-</div>
-<button (click)='quoteDelete(true)'> Delete </button>
