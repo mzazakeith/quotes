@@ -1,3 +1,23 @@
-<p>
-  quote works!
-</p>
+<h1>Quotes</h1>
+<a href="#post" >Post</a>
+<div *ngFor='let quote of quotes; let index = i'>
+
+  <div>
+
+    <p>{{quote.name}}</p>
+       <p>
+
+     Posted:{{quote.postTime|dateCount}}
+      </p>
+
+  </div>
+
+  <div>
+    <app-quote-content [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-content>
+
+  </div>
+
+</div>
+<div>
+  <app-quote-form id="post" (addQuote)="addNewQuote($event)"></app-quote-form>
+</div>
