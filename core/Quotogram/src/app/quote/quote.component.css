@@ -23,3 +23,14 @@
   padding-top: 5vh;
   text-align: center;
 }
+.container-fluid{
+  background-image: url('/assets/bg3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color:white;
+}
+.jumbotron{
+  color:rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.2);
+}
