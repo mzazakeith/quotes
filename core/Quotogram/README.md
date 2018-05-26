@@ -1,27 +1,18 @@
 # Quotogram
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
+#### https://mzazakeith.github.io/anitas-kitchen
+#### 26/05/18
+#### By KEITH MZAZA
+## Description
+This is a website an app for created for reading and posting quotes.
+## Setup/Installation Requirements
+No setup is required for access to the site
+## Known Bugs
+One can only post a quote once if the user attempts to add a quote again it has distorts the first post.
+## Technologies Used
+Anglar CLI was used for the project.
+The text editor used is atom.
+## Support and contact details
+keithmzazam@gmail.com
+### License
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
