@@ -1,23 +1,28 @@
-<h1>Quotes</h1>
-<a href="#post" ><button type="button" name="button">Post a quote</button></a>
-<div *ngFor='let quote of quotes; let index = i'>
-
-  <div>
-
-    <p>{{quote.name}}</p>
-       <p>
-
-     Posted:{{quote.postTime|dateCount}}
-      </p>
-
+<div class="container-fluid">
+<div class="jumbotron">
+  <div class="row" id="header">
+    <div class="col-md-12">
+      <h1>Quotogram</h1>
+    </div>
   </div>
-
-  <div>
-    <app-quote-content [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-content>
-
-  </div>
-
 </div>
-<div>
-  <app-quote-form id="post" (addQuote)="addNewQuote($event)"></app-quote-form>
+<div id="new">
+  <a href="#post"><button type="button"  name="button">Post a quote</button></a>
+</div>
+  <div class="all">
+  <div *ngFor='let quote of quotes; let index = i'>
+
+    <div class="row" id="quoteinfo">
+      <p>Posted by <strong>{{quote.name}}</strong> <span id="time">{{quote.postTime|dateCount}}</span></p>
+    </div>
+
+    <div>
+      <app-quote-content [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-content>
+    </div>
+
+  </div>
+  <div>
+    <app-quote-form id="post" (addQuote)="addNewQuote($event)"></app-quote-form>
+  </div>
+</div>
 </div>

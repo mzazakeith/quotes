@@ -1,0 +1,21 @@
+#header{
+  text-align: center;
+}
+#new{
+  padding-top: 1vh;
+  text-align: center;
+}
+#time{
+  font-weight: lighter;
+  font-style: italic;
+  padding-left: 1vh;
+}
+#quoteinfo{
+  padding: 5px;
+}
+.all{
+
+  padding:10px;
+  font-size: 18px;
+
+}
