@@ -1,23 +1,24 @@
 <h1>Quotes</h1>
-<a href="#post" >Post</a>
+<!-- <a href="#post" >Post</a> -->
 <div *ngFor='let quote of quotes; let index = i'>
 
   <div>
 
     <p>{{quote.name}}</p>
-       <!-- <p>
+       <p>
 
      Posted:{{quote.postTime|dateCount}}
-      </p> -->
+      </p>
 
   </div>
 
-  <!-- <div>
-    <app-quote-content [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-content>
+  <div>
+    <!-- <app-quote-content [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-content> -->
+<app-quote-content [quote]='quote'></app-quote-content>
 
-  </div> -->
+  </div>
 
 </div>
-<!-- <div>
+<div>
   <app-quote-form id="post" (addQuote)="addNewQuote($event)"></app-quote-form>
-</div> -->
+</div>
