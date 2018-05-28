@@ -1,6 +1,6 @@
 # Quotogram
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
-#### https://mzazakeith.github.io/anitas-kitchen
+#### https://mzazakeith.github.io/quotes/Quotogram/
 #### 26/05/18
 #### By KEITH MZAZA
 ## Description
